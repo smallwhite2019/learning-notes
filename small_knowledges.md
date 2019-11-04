@@ -23,3 +23,19 @@ print (str.rstrip('8'))
 返回结果：this is string example....wow!!!
          88888888this is string example....wow!!!
 ```
+
+# argparse模块：从命令行读取参数
+```
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("x", help = "横坐标", type= int)
+parser.add_argument("y", help= "纵坐标", type= int)
+args = parser.parse_args()
+x = args.x
+y = args.y
+print(x,y)
+
+python指令：python no.py 3 4
+返回结果: 3 4
+
+```
