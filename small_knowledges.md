@@ -39,3 +39,10 @@ python指令：python no.py 3 4
 返回结果: 3 4
 
 ```
+
+# tf.gfile 类
+tf.gfile.GFile(filename, mode)
+
+获取文本操作句柄，类似于python提供的文本操作open()函数，filename是要打开的文件名，mode是以何种方式去读写，将会返回一个文本操作句柄。
+
+tf.gfile.Open()是该接口的同名，可任意使用其中一个！
