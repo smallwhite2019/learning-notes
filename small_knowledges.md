@@ -46,3 +46,12 @@ tf.gfile.GFile(filename, mode)
 获取文本操作句柄，类似于python提供的文本操作open()函数，filename是要打开的文件名，mode是以何种方式去读写，将会返回一个文本操作句柄。
 
 tf.gfile.Open()是该接口的同名，可任意使用其中一个！
+
+
+# tf.placeholder()作用
+因为每一个tensor值在graph上都是一个op,每传一次便是op，这样会使得一副graph上的op太多，产生过大的开销；此时利用placeholder()在构建graph时在模型中占位，此时并没有把输入的数据传入模型，它只会分配必要的内存。
+
+# tf.python_io.tf_record_iterator()
+解析一个.tfrecords文件
+
+
