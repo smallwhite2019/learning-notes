@@ -1,8 +1,18 @@
-# 1. learning-notes
+# learning-notes
  学习笔记
 
-## 2. python notes
+# python notes
 
-## 3. 一、使用list和tuple 
-### 3.1. list
-### 3.2. tuple
+## [※使用list和tuple](使用list和tuple.md) 
+
+
+
+# [baidu](http://www.baidu.com)
+## [baidu](http://www.baidu.com)
+
+
+[TOC]
+
+# da 
+## dfae
+### df asdf
