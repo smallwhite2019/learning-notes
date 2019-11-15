@@ -88,4 +88,26 @@ print(list(zip(a,b)))
 [(1, 4), (2, 5), (3, 6)]
 ```
 
+# python tostring()
+将array转化为string（or bytes）；再用fromstring()转化为原来的矩阵
+```py
+import numpy as np
+a = np.arange(15).reshape(3,5)
+print(a)
+b = a.tostring()
+print(b)
+c = np.fromstring(b,np.int32).reshape(3,5)
+print(c)
+运行结果：
+[[ 0  1  2  3  4]
+ [ 5  6  7  8  9]
+ [10 11 12 13 14]]
 
+ b'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00'
+ 
+[[ 0  1  2  3  4]
+ [ 5  6  7  8  9]
+ [10 11 12 13 14]]
+
+
+```
