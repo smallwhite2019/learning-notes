@@ -3,6 +3,6 @@
 
 # python notes
 [toc]
-# 使用list和tuple 
-## list
-## tuple
+# 一、使用list和tuple 
+## 1.list
+## 2.tuple
