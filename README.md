@@ -3,7 +3,7 @@
 
 ## [python notes](python_notes)
 * [※使用list和tuple](python_notes/使用list和tuple.md) 
-
+* [continue和break用法](python_notes\continue和break用法.md)
 
 
 # [baidu](http://www.baidu.com)
