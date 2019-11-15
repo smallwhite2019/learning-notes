@@ -1,9 +1,9 @@
 # learning-notes
  学习笔记
 
-# python notes
+## python notes
 
-## [※使用list和tuple](使用list和tuple.md) 
+### [※使用list和tuple](python_notes\使用list和tuple.md) 
 
 
 
