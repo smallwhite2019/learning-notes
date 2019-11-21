@@ -108,6 +108,17 @@ print(c)
 [[ 0  1  2  3  4]
  [ 5  6  7  8  9]
  [10 11 12 13 14]]
-
-
 ```
+
+# tfrecord
+从TFRecords文件中读取数据， 首先需要tf.train.string_input_producer生成一个解析队列。之后调用tf.TFRecordReader的tf.parse_single_example解析器。解析器首先读取解析队列，返回serialized_example对象，之后调用tf.parse_single_example操作将Example协议缓冲区(protocol buffer)解析为张量。
+# tf.train.string_input_producer
+把输入的数据进行按照要求排序成一个队列。最常见的是把一堆文件名整理成一个队列
+# tf.TFRecordReader()
+ _, serialized_example = reader.read(filename_queue)   #返回文件名和文件
+# tf.parse_single_example
+解析队列
+# tf.FixedLenFeature 和 tf.VarLenFeature的区别
+前者返回的是一个定长的tensor，后者返回的是一个不定长的sparse tensor，用于处理可变长度的输入，在处理ctc问题时，会用到tf.VallenFeature解析存储在tfrecord中的label。
+# tf.decode_raw
+tf.decode_raw函数的意思是将原来编码为字符串类型的变量重新变回来，这个方法在数据集dataset中很常用，因为制作图片源数据一般写进tfrecord里用to_bytes的形式，也就是字符串。这里将原始数据取出来 必须制定原始数据的格式，原始数据是什么格式这里解析必须是什么格式，要不然会出现形状的不对应问题！
