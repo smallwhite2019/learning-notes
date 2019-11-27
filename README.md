@@ -16,6 +16,9 @@
 * [※装饰器用法](python_notes/装饰器用法.md)
 * [※作用域用法](python_notes/作用域用法.md)
 * [※偏函数用法](python_notes/偏函数用法.md)
+* [※类和实例用法](python_notes/类和实例用法.md)
+* [※访问限制用法](python_notes/访问限制用法.md)
+* [※继承和多态用法](python_notes/继承和多态用法.md)
 
 
 
