@@ -19,6 +19,10 @@
 * [※类和实例用法](python_notes/类和实例用法.md)
 * [※访问限制用法](python_notes/访问限制用法.md)
 * [※继承和多态用法](python_notes/继承和多态用法.md)
+* [※获取对象信息用法](python_notes/获取对象信息.md)
+* [※实例属性和类属性用法](python_notes/实例属性和类属性用法.md)
+
+
 
 
 
