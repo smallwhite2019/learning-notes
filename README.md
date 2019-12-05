@@ -21,6 +21,11 @@
 * [※继承和多态用法](python_notes/继承和多态用法.md)
 * [※获取对象信息用法](python_notes/获取对象信息.md)
 * [※实例属性和类属性用法](python_notes/实例属性和类属性用法.md)
+* [※使用__slots__用法](python_notes/使用__slots__用法.md)
+* [※使用@property用法](python_notes/使用@property用法.md)
+* [※多重继承用法](python_notes/多重继承用法.md)
+* [※定制类用法](python_notes/定制类用法.md)
+* [※枚举类用法](python_notes/枚举类用法.md)
 
 
 
