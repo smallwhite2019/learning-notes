@@ -26,6 +26,14 @@
 * [※多重继承用法](python_notes/多重继承用法.md)
 * [※定制类用法](python_notes/定制类用法.md)
 * [※枚举类用法](python_notes/枚举类用法.md)
+* [※错误处理用法](python_notes/错误处理用法.md)
+* [※调试用法](python_notes/调试用法.md)
+* [※文件读写用法](python_notes/文件读写用法.md)
+* [※StringIO和BytesIO用法](python_notes/StringIO和BytesIO用法.md)
+* [※操作文件和目录用法](python_notes/操作文件和目录用法.md)
+* [※进程和线程用法](python_notes/进程和线程用法.md)
+* [※正则表达式re模块用法](python_notes/正则表达式re模块用法.md)
+
 
 
 
